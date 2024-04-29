@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Factorial Sum Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="box1">
+      <h1>Factorial Sum Calculator</h1>
+      <div>
+        <label for="n1">Enter the value of n:</label>
+        <input type="number" id="n1" value="5" />
+      </div>
+      <div>
+        <label for="m1">Enter the value of m:</label>
+        <input type="number" id="m1" value="3" />
+      </div>
+      <button onclick="calculate1()">Calculate</button>
+      <div id="result1"></div>
+    </div>
+
+    <!-- ========================== -->
+
+    <div class="box1">
+      <h1>Exponent Calculator</h1>
+      <div>
+        <label for="n">Enter the base (n):</label>
+        <input type="number" id="n2" value="2" />
+      </div>
+      <div>
+        <label for="m">Enter the exponent (m):</label>
+        <input type="number" id="m2" value="3" />
+      </div>
+      <button onclick="calculate2()">Calculate</button>
+      <div id="result2"></div>
+    </div>
+
+    <!-- ========================== -->
+
+    <div class="box1">
+      <h1>Prime Number Checker</h1>
+      <div>
+        <label for="n3">Enter a number (n):</label>
+        <input type="number" id="n3" value="2" />
+      </div>
+      <button onclick="checkPrime()">Check Prime</button>
+      <div id="result3"></div>
+    </div>
+
+    <div class="box1">
+      <h1>Prime Numbers up to N</h1>
+      <div>
+        <label for="n4">Enter a number (n):</label>
+        <input type="number" id="n4" value="10" />
+      </div>
+      <button onclick="findPrimes()">Find Primes</button>
+      <div id="result4"></div>
+    </div>
+
+    <div class="box1">
+      <h1>Fibonacci Sequence up to N</h1>
+      <div>
+        <label for="n">Enter a number (n):</label>
+        <input type="number" id="n5" value="10" />
+      </div>
+      <button onclick="findFibonacci()">Find Fibonacci</button>
+      <div id="result5"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
